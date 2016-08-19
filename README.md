@@ -9,7 +9,7 @@
 
 Read more : https://kotlinlang.org/docs/tutorials/kotlin-android.html
 
-#####Reducing "findViewById" with Kotlin extension
+####Reducing "findViewById" with Kotlin extension
 1. Add dependency 'classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version" ' into your project build.gradle
 2. Enable the Android Extensions Gradle plugin in your module build.gradle file with "apply plugin: 'kotlin-android-extensions' "
 3. Add "import kotlinx.android.synthetic.main.activity_main.*" in Activity class according to your UI xml name (I use activity_main for MainActivity class)
@@ -17,6 +17,6 @@ Read more : https://kotlinlang.org/docs/tutorials/kotlin-android.html
 
 Read more : https://kotlinlang.org/docs/tutorials/android-plugin.html
 
-#####Using Anko('s IntelliJ) to help program UI
+####Using Anko('s IntelliJ) to help program UI
 1. Add gradle dependencies on our build.gradle with "compile 'org.jetbrains.anko:anko-sdk23:0.9'"
 2. Example, you can go to other activity with "startActivity(intentFor<Main2Activity>())"
