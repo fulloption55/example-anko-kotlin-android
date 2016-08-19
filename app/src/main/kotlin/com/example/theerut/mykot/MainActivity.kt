@@ -16,14 +16,14 @@ class MainActivity : AppCompatActivity() {
 
     fun setOnClick() {
         button_main.setOnClickListener(onClickButtonMain)
-        button_main1.setOnClickListener(onClickButtonMain1)
+        next_page_button.setOnClickListener(onClickNextPageButton)
     }
 
     val onClickButtonMain = View.OnClickListener {
         text_main.text = Math.random().toString()
     }
 
-    val onClickButtonMain1 = View.OnClickListener {
+    val onClickNextPageButton = View.OnClickListener {
         startActivity(intentFor<Main2Activity>())
     }
 

@@ -25,7 +25,7 @@
 
     <Button
         android:layout_below="@id/button_main"
-        android:id="@+id/button_main1"
+        android:id="@+id/next_page_button"
         android:text="go to next page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
